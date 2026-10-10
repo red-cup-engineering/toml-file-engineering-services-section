@@ -1,0 +1,22 @@
+{
+  "name": "@red-cup-engineering/toml-file-codec-service",
+  "version": "0.1.1",
+  "private": false,
+  "type": "module",
+  "description": "Canonical TOML flatfile decode and encode actuator recovered from Relating.",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "check": "tsc -p tsconfig.build.json --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm run build && npm test"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  }
+}
