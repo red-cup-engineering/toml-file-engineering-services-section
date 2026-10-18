@@ -4,6 +4,11 @@
   "private": false,
   "type": "module",
   "description": "Canonical TOML flatfile decode and encode actuator recovered from Relating.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-file-engineering-services-section.git",
+    "directory": "services/flatfile-engineering-services-section/services/serialization-services-section/services/toml-file-services-section/services/toml-file-codec-service"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.mts",
