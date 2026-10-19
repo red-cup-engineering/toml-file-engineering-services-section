@@ -1,0 +1,4 @@
+[submodule "toml-file-codec-service"]
+	path = services/toml-file-codec-service
+	url = https://github.com/red-cup-engineering/toml-file-codec-service.git
+	branch = main
